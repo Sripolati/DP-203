@@ -1,9 +1,132 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Page-1" id="YhIZirmxtG8EMKiJ8WyT">
-    <mxGraphModel>
+    <mxGraphModel dx="1361" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YhDnHm-8JCX_9w6hxJCG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Engineer&lt;/font&gt;&lt;/b&gt; deals with &lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Roles and Responsibilities&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="600" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Integrates&lt;/font&gt;&lt;/b&gt;, &lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;transforms&lt;/font&gt;&lt;/b&gt;, and &lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;consolidates &lt;/font&gt;&lt;/b&gt;data from multiple structured and unstructured data sources." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-4">
+          <mxGeometry y="30" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-6" value="Creates data structures that enable the development of analytics solutions. - &lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Warehouse, Data tables and Data Marts&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-4">
+          <mxGeometry y="70" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-7" value="ensure that data pipelines and data stores are high-performing, efficient, organized, and reliable&amp;nbsp;given a specific set of business requirements and constraints." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-4">
+          <mxGeometry y="130" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-8" value="&#xa;Develops solutions that meet specific business requirements&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-4">
+          <mxGeometry y="160" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-9" value="Considers organizational constraints, such as budget and infrastructure limitations, while designing data solutions." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-4">
+          <mxGeometry y="190" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YhDnHm-8JCX_9w6hxJCG-12" target="YhDnHm-8JCX_9w6hxJCG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-12" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Extract&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;data&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;from different systems&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-16" value="&lt;b&gt;Structrued&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-15">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-17" value="&lt;b&gt;Semi-structured&amp;nbsp;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-15">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-18" value="&lt;b&gt;Unstructured&amp;nbsp;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-15">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-20" value="Examples" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="90" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-21" value="CSV files - aligned data - comes from tables&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-20">
+          <mxGeometry y="30" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-22" value="JSON- needs flatten before loading - may not fit into table structure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-20">
+          <mxGeometry y="60" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-23" value="Key - value data, PDF&#39;s, documents, images, vedios etc." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-20">
+          <mxGeometry y="90" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-26" value="Integration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="710" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-27" value="Attributes: OLTP(Online Transaction Process), OLAP(Online Analytical Process), Different Systems(MFG Pro, Salesforce, SAP etc.)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-26">
+          <mxGeometry y="30" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-28" value="Extracting data from mulitiple systems into Staging tables or Datalakes." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-26">
+          <mxGeometry y="60" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-29" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-26">
+          <mxGeometry y="90" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.11;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.466;exitY=0.916;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YhDnHm-8JCX_9w6hxJCG-5" target="YhDnHm-8JCX_9w6hxJCG-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.463;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.074;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YhDnHm-8JCX_9w6hxJCG-5" target="YhDnHm-8JCX_9w6hxJCG-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359" y="503" as="sourcePoint" />
+            <mxPoint x="130" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="530" />
+              <mxPoint x="40" y="720" />
+              <mxPoint x="130" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.448;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="YhDnHm-8JCX_9w6hxJCG-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="340" as="sourcePoint" />
+            <mxPoint x="570" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="530" />
+              <mxPoint x="20" y="900" />
+              <mxPoint x="140" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-34" value="Transformation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="770" width="710" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-35" value="Transform operational data into suitable structure and format for analysys - Ex: Extract data from MFG Pro and transfrom data into unified data and load into Data Warehouse." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-34">
+          <mxGeometry y="30" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-36" value="ETL - Extract Transform and Load &lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Warehouse&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-34">
+          <mxGeometry y="60" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-37" value="ELT - Extract Load and Transform&amp;nbsp; &lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Lake&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-34">
+          <mxGeometry y="90" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-38" value="Consolidation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="940" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-39" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-38">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-40" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-38">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-41" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-38">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
