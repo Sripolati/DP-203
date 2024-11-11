@@ -60,7 +60,7 @@
         <mxCell id="YhDnHm-8JCX_9w6hxJCG-23" value="Key - value data, PDF&#39;s, documents, images, vedios etc." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-20">
           <mxGeometry y="90" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YhDnHm-8JCX_9w6hxJCG-26" value="Integration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Integration&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="550" width="710" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YhDnHm-8JCX_9w6hxJCG-27" value="Attributes: OLTP(Online Transaction Process), OLAP(Online Analytical Process), Different Systems(MFG Pro, Salesforce, SAP etc.)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-26">
@@ -92,19 +92,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YhDnHm-8JCX_9w6hxJCG-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.448;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="YhDnHm-8JCX_9w6hxJCG-38">
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.093;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YhDnHm-8JCX_9w6hxJCG-5" target="YhDnHm-8JCX_9w6hxJCG-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="340" as="sourcePoint" />
-            <mxPoint x="570" y="560" as="targetPoint" />
+            <mxPoint x="360" y="390" as="sourcePoint" />
+            <mxPoint x="142.72000000000003" y="1057.6" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="20" y="530" />
-              <mxPoint x="20" y="900" />
-              <mxPoint x="140" y="900" />
+              <mxPoint x="20" y="580" />
+              <mxPoint x="20" y="950" />
+              <mxPoint x="140" y="950" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YhDnHm-8JCX_9w6hxJCG-34" value="Transformation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="770" width="710" height="120" as="geometry" />
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-34" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Transformation&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="770" width="710" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YhDnHm-8JCX_9w6hxJCG-35" value="Transform operational data into suitable structure and format for analysys - Ex: Extract data from MFG Pro and transfrom data into unified data and load into Data Warehouse." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-34">
           <mxGeometry y="30" width="710" height="30" as="geometry" />
@@ -112,20 +112,59 @@
         <mxCell id="YhDnHm-8JCX_9w6hxJCG-36" value="ETL - Extract Transform and Load &lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Warehouse&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-34">
           <mxGeometry y="60" width="710" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YhDnHm-8JCX_9w6hxJCG-37" value="ELT - Extract Load and Transform&amp;nbsp; &lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Lake&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-34">
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-37" value="ELT - Extract Load and Transform&amp;nbsp; &lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Data Lake - &lt;/b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;use&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;Segoe UI&amp;quot;, SegoeUI, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;big data&lt;/b&gt;&quot; processing techniques to transform it&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-34">
           <mxGeometry y="90" width="710" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YhDnHm-8JCX_9w6hxJCG-38" value="Consolidation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="940" width="140" height="120" as="geometry" />
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-42" value="Data prepared to downstream analytical needs." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-34">
+          <mxGeometry y="120" width="710" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YhDnHm-8JCX_9w6hxJCG-39" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-38">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Consolidation&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1010" width="690" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-39" value="Combining data into Data Warehouse or Data Lake for dwon stream system or process to support analytics and reporting." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-38">
+          <mxGeometry y="30" width="690" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YhDnHm-8JCX_9w6hxJCG-40" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-38">
+          <mxGeometry y="60" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-43" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Languages&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1215" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-44" value="Languages" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1280" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-45" value="SQL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-44">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-46" value="Python" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-44">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YhDnHm-8JCX_9w6hxJCG-41" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-38">
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-47" value="R, Java, Scala, .NET, Notebooks&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-44">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-48" value="&lt;b&gt;Imp Data Engineer Concepts&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1680" width="670" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-49" value="Operational Data and Analytical Data: Data that is generated and stored in applications. (Often &lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;relational and non-relational&lt;/font&gt;&lt;/b&gt; databases) &lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;OLTP&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Analytical data that has been optimized for analysis and reporting(ofter&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt; Data Warehouse&lt;/font&gt;&lt;/b&gt;) &lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;OLAT&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-48">
+          <mxGeometry y="30" width="670" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-50" value="Streaming Data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-48">
+          <mxGeometry y="110" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-51" value="Data Pipelines" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-48">
+          <mxGeometry y="140" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-54" value="Data Lakes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-48">
+          <mxGeometry y="170" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-55" value="Data Warehouses" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-48">
+          <mxGeometry y="200" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-56" value="Apache Spark" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="YhDnHm-8JCX_9w6hxJCG-48">
+          <mxGeometry y="230" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YhDnHm-8JCX_9w6hxJCG-53" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Imp Data Engineer Concepts&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1560" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
