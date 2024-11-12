@@ -217,6 +217,18 @@
         <mxCell id="M7AG7lGxA6wFCGQZ4ymq-4" value="&lt;h3&gt;Data Lakes: An Overview&lt;/h3&gt;&lt;h4&gt;1. &lt;strong&gt;Purpose and Functionality of Data Lakes&lt;/strong&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Definition&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;A &lt;strong&gt;data lake&lt;/strong&gt; is a storage solution for massive volumes of data, typically file-based.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;Built on a &lt;strong&gt;distributed file system&lt;/strong&gt; that supports high scalability, enabling efficient management of large datasets.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;2. &lt;strong&gt;Data Types Stored in Data Lakes&lt;/strong&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Structured Data&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;Organized data, often from databases or relational sources.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Semi-Structured Data&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;Data with some organizational structure, such as JSON or XML files.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Unstructured Data&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;Raw data, including text, audio, and video files, without a predefined structure.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;3. &lt;strong&gt;Data Consumption and Processing&lt;/strong&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Big Data Processing Tools&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;Technologies like &lt;strong&gt;Apache Spark&lt;/strong&gt; are commonly used to process and analyze data stored in data lakes.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Flexible Data Consumption&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;Supports multiple types of big data applications by allowing various types of data to be accessed directly from the lake.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="4130" width="560" height="450" as="geometry" />
         </mxCell>
+        <mxCell id="M7AG7lGxA6wFCGQZ4ymq-6" value="Data Lakes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="4730" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="M7AG7lGxA6wFCGQZ4ymq-7" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="M7AG7lGxA6wFCGQZ4ymq-6">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7AG7lGxA6wFCGQZ4ymq-8" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="M7AG7lGxA6wFCGQZ4ymq-6">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7AG7lGxA6wFCGQZ4ymq-9" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="M7AG7lGxA6wFCGQZ4ymq-6">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
