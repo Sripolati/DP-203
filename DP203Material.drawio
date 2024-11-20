@@ -381,6 +381,12 @@
         <mxCell id="eXhtR6zYv9BdWxsIERct-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Creating ADLS Gen2&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;To enable Azure Data Lake Storage Gen2 in an Azure Storage account, you can select the option to &lt;b&gt;Enable hierarchical&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;namespace&lt;/b&gt; in the &lt;b&gt;Advanced page&lt;/b&gt; when &lt;b&gt;creating the storage account&lt;/b&gt; in the Azure portal&lt;br&gt;&lt;div&gt;&lt;b&gt;Alternatively&lt;/b&gt;, if you already have an Azure Storage account and want to enable the Azure data Lake Storage Gen2 capability,&lt;/div&gt;&lt;div&gt;&amp;nbsp;you can use the &lt;b&gt;Data Lake Gen2 upgrade wizard&lt;/b&gt; in the Azure portal page for your storage account resource.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="47" y="7080" width="690" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="eXhtR6zYv9BdWxsIERct-19" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Data&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="12650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eXhtR6zYv9BdWxsIERct-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;Use Azure Data Lake Storage Gen2 in data analytics workloads&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="12718" width="510" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
